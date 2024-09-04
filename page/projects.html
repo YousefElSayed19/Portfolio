@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Projects</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/canves.css">
+        <link rel="stylesheet" href="../css/all.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="icon" href="../image/favicon.ico">
+    </head>
+    <body>
+
+        <p id="Home"></p>
+
+        <div id="particles-js">
+            <nav>
+                <div class="container">
+                    <ul class="d-lg-flex list ">
+                        <li class="">
+                            <a href="../index.html#About">About</a>
+                        </li>
+                        <li class="">
+                            <a href="../index.html#Tutorials">Tutorials</a>
+                        </li>
+                        <li class="">
+                            <a href="../index.html#Home">Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="#Projects">Projects</a>
+                        </li>
+                        <li class="">
+                            <a href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                    <span class="okList ico">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </span>
+                    <span class="noList ico">
+                        <i class="fa-solid fa-xmark"></i>
+                    </span>
+                </div>
+            </nav>
+
+            <div class="hello">
+                <h1>Product Page !</h1>
+            </div>
+
+            <div class="icons">
+                <ul class="d-lg-flex icon">
+                    <li class="" onclick="moveShape(-30)">
+                        <a href="#About"><i class="fa-solid fa-address-card"></i></a>
+                    </li>
+                    <li class="" onclick="moveShape(50)">
+                        <a class="white" href="#Projects"><i class="fa-solid fa-diagram-project"></i></a>
+                    </li>
+                    <li class="" onclick="moveShape(127)">
+                        <a  href="../index.html#Home"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li class="" onclick="moveShape(205)">
+                        <a href="#Tutorials"><i class="fa-solid fa-graduation-cap"></i></a>
+                    </li>
+                    <li class="" onclick="moveShape(290)">
+                        <a href="#Contact"><i class="fa-solid fa-tty"></i></a>
+                    </li>
+                    <div class="shape shapeProduct"></div>
+                </ul>   
+            </div>
+        </div> 
+
+        <div class="projects" id="Projects">
+            <div class="container">
+                <h1 class="fw-bold mainColor text-center aboutMe mb-5 mt-5">
+                    <i class="fa-solid fa-laptop-code"></i> My Projects
+                </h1>
+                <div class="cards cardsInProjects d-flex flex-wrap">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="Contact">
+            <h1 class="fw-bold text-center mb-5"> <i class="fa-solid fa-headset"></i> Get In <span class="mainColor">Touch</span></h1>
+            <div class="container d-grid">
+                <div class="row justify-content-around">
+                    <div class="left col-lg-5 ">
+                        <img src="../img/contact.png" alt="" width="75%">
+                    </div>
+                    <div class="right col-lg-5 mt-lg-0 mt-5">
+                        <form action="https://formsubmit.co/yousafe2042005@gmail.com" method="POST" target="_blank">
+                            <input class="input" type="text" placeholder="Full Name" required>
+                            <input class="input" type="email" placeholder="Email Address" required>
+                            <input class="input" type="text" placeholder="Subject" required>
+                            <textarea class="input" placeholder="Message " class="message" required></textarea>
+                            <input class="submit" type="submit" value="Send Message">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="Contact">
+            <div class="container d-grid">
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-md-8 mb-3">
+                        <img src="../img/me/WhatsApp Image 2024-08-14 at 19.47.24_33c30725.jpg" alt="" width="250px">
+                    </div>
+                    <div class="col-lg-2 col-md-4 mb-3">
+                        <p class="mainColor fs-4">Company</p>
+                        <ul class="d-block p-0">
+                            <li class="">
+                                <a href="../index.html#About">About</a>
+                            </li>
+                            <li class="">
+                                <a href="../index.html#Tutorials">Tutorials</a>
+                            </li>
+                            <li class="">
+                                <a href="#Home">Home</a>
+                            </li>
+                            <li class="">
+                                <a href="#Projects">Projects</a>
+                            </li>
+                            <li class="">
+                                <a href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 mb-3">
+                        <p class="mainColor fs-4">Follow Us</p>
+                        <div class="iconl">
+                            <a class="text-white fs-5" target="_blank" href="https://www.facebook.com/profile.php?id=100010998605405"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                            <br>
+                            <br>
+                            <a class="text-white fs-5" target="_blank" href="https://github.com/YousefElSayed19"><i class="fa-brands fa-github"></i> github</a>
+                            <br>
+                            <br>
+                            <a class="text-white fs-5" target="_blank" href="https://www.linkedin.com/in/yousaf-elsayed-a316a92a8/"><i class="fa-brands fa-linkedin"></i> linkedin</a>
+                            <br>
+                            <br>
+                            <a class="text-white fs-5" target="_blank" href="https://www.instagram.com/yousaf_elsayed/"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8">
+                        <p class="mainColor fs-4">Connect</p>
+                        <p class="text-white">+201013566386</p>
+                        <p class="text-white">+201114186792</p>
+                        <p class="text-white">yousafe2042005@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-5">
+            <p class="text-white text-center">© All rights reserved <span class="data">2020</span>  <span class="mainColor">Made by Yousaf ElSayed</span></p>
+        
+        </footer>
+        
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+        <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="../js/particles.js "></script>
+        <script src="../js/main.js "></script>
+        <script src="../js/dataForCards.js "></script>
+        <script src="../js/all.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+
+    
+    <!-- <div class="">
+        <dotlottie-player src="https://lottie.host/21552016-1a16-4dbb-a1fa-2ad78f700999/Dgcu6nWlmI.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></dotlottie-player>
+    </div> -->

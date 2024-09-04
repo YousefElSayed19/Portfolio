@@ -574,6 +574,9 @@ footer hr{
     .projects .cord{
         width: 98% ;
     }
+    footer{
+        padding-bottom:75px ;
+    }
 }
 @media (min-width:500px) and (max-width:800px){
     nav{

@@ -611,6 +611,10 @@ footer hr{
     .projects .cord{
         width:calc(95% / 2);
     }
+    footer{
+        padding-bottom:75px ;
+    }
+    
 }
 
 

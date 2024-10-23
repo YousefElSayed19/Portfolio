@@ -137,6 +137,12 @@ let datasOfCards=[
         text:"We are Leon - Super Creative",
         url:"https://yousefelsayed19.github.io/Leon/",
         },
+    {
+        imgSrc:"../img/wepsite/project-24.png",
+        title:"Foddera",
+        text:"Good food",
+        url:"https://yousefelsayed19.github.io/foodra/",
+        },
     ]
 
 if (document.querySelector(".cardsInProjects")){

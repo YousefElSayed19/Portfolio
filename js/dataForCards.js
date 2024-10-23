@@ -18,6 +18,12 @@ let datasOfCards=[
         url:"https://yousefelsayed19.github.io/Prayer-Times/",
         },
     {
+        imgSrc:"../img/wepsite/project-24.png",
+        title:"Foddera",
+        text:"Good food",
+        url:"https://yousefelsayed19.github.io/foodra/",
+        },
+    {
         imgSrc:"../img/wepsite/project-4.png",
         title:"Cala Ecommerce",
         text:"To order food easily and quickly",
@@ -136,12 +142,6 @@ let datasOfCards=[
         title:"loan",
         text:"We are Leon - Super Creative",
         url:"https://yousefelsayed19.github.io/Leon/",
-        },
-    {
-        imgSrc:"../img/wepsite/project-24.png",
-        title:"Foddera",
-        text:"Good food",
-        url:"https://yousefelsayed19.github.io/foodra/",
         },
     ]
 
